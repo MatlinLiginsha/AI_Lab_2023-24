@@ -16,7 +16,8 @@ Step 9 : Define a problem for block world problem.<br>
 Step 10 : Obtain the plan for given problem.<br> 
      
 ### Program:
-```(define (domain blocksworld)
+```
+(define (domain blocksworld)
 (:requirements :strips :equality)
 (:predicates (clear ?x)
  (on-table ?x)
