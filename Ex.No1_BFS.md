@@ -25,6 +25,8 @@ queue = [] #Initialize a queue
 def bfs(visited, graph, node): #function for BFS
  visited.append(node)
  queue.append(node)
+```
+```
  while queue: 
      m = queue.pop(0)
      print (m, end = " ")
