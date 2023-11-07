@@ -20,8 +20,7 @@ graph = {
  '7' : ['8'],
  '2' : [],
  '4' : ['8'],
- '8' : []
-}
+ '8' : []}
 visited = [] # List for visited nodes.
 queue = [] #Initialize a queue
 def bfs(visited, graph, node): #function for BFS
