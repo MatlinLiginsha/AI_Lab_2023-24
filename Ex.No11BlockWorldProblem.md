@@ -27,13 +27,13 @@ Step 10 : Obtain the plan for given problem.<br>
 (:action pickup
  :parameters (?ob)
  :precondition (and (clear ?ob) (on-table ?ob) (arm-empty))
+```
+```
  :effect (and (holding ?ob) (not (clear ?ob)) (not (on-table ?ob))
  (not (arm-empty))))
 (:action putdown
  :parameters (?ob)
  :precondition (and (holding ?ob))
-```
-```
  :effect (and (clear ?ob) (arm-empty) (on-table ?ob)
  (not (holding ?ob))))
 (:action stack
