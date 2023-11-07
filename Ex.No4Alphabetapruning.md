@@ -32,6 +32,8 @@ def minimax(depth, nodeIndex, maximizingPlayer, values, alpha, beta):
             if beta <= alpha:
                 break
         return best
+```
+```
     else:
         best = MAX
         for i in range(0, 2):
