@@ -74,6 +74,8 @@ Step 7: Stop the program.<br>
  (location p3)
  (location p4)
  (at monkey p1)
+```
+```
  (on-floor)
  (at box p2)
  (at bananas p3)
