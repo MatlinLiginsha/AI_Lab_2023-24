@@ -32,9 +32,8 @@ def bfs(visited, graph, node): #function for BFS
          if neighbour not in visited:
              visited.append(neighbour)
              queue.append(neighbour)
-# Driver Code
 print("Following is the Breadth-First Search")
-bfs(visited, graph, '5') # function calling
+bfs(visited, graph, '5')
 ```
 ### Output:
 ![image](https://github.com/MatlinLiginsha/AI_Lab_2023-24/assets/143495913/35a88fd5-8cf1-4ee0-8e06-d5c2785b1d78)
